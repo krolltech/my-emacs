@@ -1,0 +1,1 @@
+${2:state} if ${1:condition}

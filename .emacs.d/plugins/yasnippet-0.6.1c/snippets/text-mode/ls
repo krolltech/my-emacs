@@ -1,0 +1,3 @@
+#name : (current directory files)
+# --
+`(shell-command-to-string "ls")`
