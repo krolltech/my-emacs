@@ -1,3 +1,0 @@
-it ${1:desc} do
-  $2
-end
