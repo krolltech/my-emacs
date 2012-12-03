@@ -20,10 +20,12 @@
 (add-hook 'after-init-hook 'session-initialize)
 
 (load "desktop")
-(desktop-load-default)
-(desktop-save-mode 1)
-(desktop-read)
 (setq-default desktop-load-locked-desktop t) ; ==> 就是加入这句解决了问题。
+(desktop-load-default)
+(desktop-read)
+(desktop-save-mode 1)
+
+
 
 ;;rhtml mode.
 (add-to-list 'load-path (expand-file-name "~/.emacs.d/plugins/rhtml-minor-mode"))
@@ -125,7 +127,7 @@
 (setq kill-ring-max 200)
 
 ;;mark按键设置
-(global-set-key (kbd "C-u") 'goto-line)
+(global-set-key (kbd "C-c u") 'goto-line)
 (global-set-key (kbd "C-c v") 'set-mark-command)
 (global-set-key (kbd "C-z") 'set-mark-command)
 ;;隐藏菜单栏.
@@ -332,7 +334,7 @@
 (require 'ecb)
 (setq ecb-auto-activate t
       ecb-tip-of-the-day nil)
-(setq ecb-windows-width 0.3)
+(setq ecb-windows-width 0.25)
 
 ;;; 使某一ecb窗口最大化
 (global-set-key (kbd "C-c C-v d")  'ecb-maximize-window-directories)
@@ -353,9 +355,13 @@
 
 ;;默认工作目录
 (setq default-directory "/Users/zhuoyikang/Project/galaxy-empire-2" )
-(cd "/Users/zhuoyikang/Project/galaxy-empire-2" )
+;;(cd "/Users/zhuoyikang/Project/galaxy-empire-2" )
 
-;;安装el-get
+;;templates
+(require 'template)
+(template-initialize)
+
+;;安装el-get。
 (add-to-list 'load-path "~/.emacs.d/el-get/el-get")
 (unless (require 'el-get nil 'noerror)
   (with-current-buffer
@@ -363,3 +369,9 @@
        "https://raw.github.com/dimitri/el-get/master/el-get-install.el")
     (goto-char (point-max))
     (eval-print-last-sexp)))
+(el-get 'sync)
+
+;;lua 模式.
+(setq auto-mode-alist (cons '("\\.lua$" . lua-mode) auto-mode-alist))
+(autoload 'lua-mode "lua-mode" "Lua editing mode." t)
+(add-to-list `ac-modes `(lua-mode))
