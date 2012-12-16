@@ -28,3 +28,4 @@
 (require 'init-ibuffer)
 ;;should work with windows system
 (require 'init-highlight-tail)
+(require 'init-server)

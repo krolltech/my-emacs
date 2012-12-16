@@ -27,6 +27,11 @@
 (setq erl-nodename-cache 'develop@127.0.0.1)
 ;;(setq erl-nodename-cache 'develop@42.120.48.49)
 
+;;emacs erlang node name
+(defun erl_choose_debug ()
+  (erl-choose-nodename 'develop@42.120.48.49))
+(global-set-key [(f9)] 'erl_choose_debug)
+
 
 ;;----------------------------------------------------------------------------
 ;; Some Erlang customizations

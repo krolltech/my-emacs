@@ -11,15 +11,33 @@
 (show-paren-mode t)              ;;显示括号匹配
 (setq make-backup-files nil)     ;;不产生备份文件
 (tool-bar-mode 0)                ;;不显示工具栏
+(setq visible-bell t)            ;;我不想听见emacs 一个劲的叫
+(setq column-number-mode t)      ;;显示列号 
+(setq default-fill-column 60)    ;;
+(global-set-key [f10] 'undo)     ;;设置F10为撤销
+(put 'set-goal-column 'disabled nil)
+(put 'narrow-to-region 'disabled nil)
+(put 'upcase-region 'disabled nil)
+(put 'downcase-region 'disabled nil)
+(global-set-key [(f8)] 'eshell)
+
+
+;;;;高亮当前行
+;;(require 'hl-line)
+;;(global-hl-line-mode t)
+;;(set-face-background hl-line-face "#330066")
 
 ;;去除掉多余的空格
 ;;(require 'whitespace)
 ;;(add-hook 'before-save-hook 'whitespace-cleanup)
 ;;(whitespace-global-mode t)
 
-;设置时间在状态栏的显示
+;;设置时间在状态栏的显示
 (setq display-time-day-and-date t display-time-24hr-format t)
 (display-time)
 
+(global-set-key (kbd "C-c C-c")   'comment-region)
+(global-set-key (kbd "C-c C-u")   'uncomment-region)
 
 (provide 'init-misc)
+
