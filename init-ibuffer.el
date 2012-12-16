@@ -5,8 +5,7 @@
 (add-hook 'ibuffer-mode-hook
           (lambda ()
             (setq ibuffer-filter-groups
-                  '(
-                    ("*buffer*" (name . "\\*.*\\*"))
+                  '(("*buffer*" (name . "\\*.*\\*"))
                     ;;("TAGS" (name . "^TAGS\\(<[0-9]+>\\)?$"))
                     ("dired" (mode . dired-mode))
                     ("erlang" (mode . erlang-mode))
