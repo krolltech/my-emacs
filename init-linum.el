@@ -5,4 +5,7 @@
 ;;格式化行号形式
 (setq linum-format "%d  ")
 
+;;(require 'setnu+)
+;;(setnu-mode t)
+
 (provide 'init-linum)

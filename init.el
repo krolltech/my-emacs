@@ -3,6 +3,8 @@
 (add-to-list 'load-path (expand-file-name "~/.emacs.d"))
 (add-to-list 'load-path "/Users/zhuoyikang/.emacs.d/site-lisp")
 
+(require 'init-locales)
+(require 'init-utils)
 (require 'init-ido)
 (require 'init-key-press)
 (require 'init-winner)
@@ -21,5 +23,6 @@
 (require 'init-slime)
 (require 'init-mark-down)
 (require 'init-xterm)
+(require 'init-csv)
 
 (message "yikang zhuo's emacs launch")

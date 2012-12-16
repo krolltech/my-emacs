@@ -12,8 +12,10 @@
 ;; load and eval the erlang-start package to set up
 (require 'erlang-start)
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;----------------------------------------------------------------------------
 ;; distel
+;;----------------------------------------------------------------------------
+
 ;; This is needed for Distel setup
 (let ((distel-dir "/usr/local/share/distel/elisp"))
   (unless (member distel-dir load-path)
@@ -26,16 +28,17 @@
 ;;(setq erl-nodename-cache 'develop@42.120.48.49)
 
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;----------------------------------------------------------------------------
 ;; Some Erlang customizations
-
+;;----------------------------------------------------------------------------
 
 (add-hook 'erlang-mode-hook
-    (lambda ()
-      ;; when starting an Erlang shell in Emacs, default in the node name
-      (setq inferior-erlang-machine-options '("-sname" "emacs" "-setcookie" "abc" ))
-      ;; add Erlang functions to an imenu menu
-      (imenu-add-to-menubar "imenu")))
+	  (lambda ()
+	    ;; when starting an Erlang shell in Emacs, default in the node name
+	    (setq inferior-erlang-machine-options
+		  '("-sname" "emacs" "-setcookie" "abc" ))
+	    ;; add Erlang functions to an imenu menu
+	    (imenu-add-to-menubar "imenu")))
 
 ;; A number of the erlang-extended-mode key bindings are useful in the shell too
 (defconst distel-shell-keys
@@ -48,18 +51,22 @@
   "Additional keys to bind when in Erlang shell.")
 
 (add-hook 'erlang-shell-mode-hook
-          (lambda ()
-            ;; add some Distel bindings to the Erlang shell
-            (dolist (spec distel-shell-keys)
-        (define-key erlang-shell-mode-map (car spec) (cadr spec)))))
+	  (lambda ()
+	    ;; add some Distel bindings to the Erlang shell
+	    (dolist (spec distel-shell-keys)
+	      (define-key erlang-shell-mode-map (car spec) (cadr spec)))))
+
+;;----------------------------------------------------------------------------
+;; indent
+;;----------------------------------------------------------------------------
 
 (setq erlang-indent-level 2)
 (add-hook 'erlang-mode-hook
-    (lambda ()
-      ;; for erlang
-      (setq default-tab-width 2)
-      (setq tab-width 2)
-      (setq-default indent-tabs-mode nil)))
+	  (lambda ()
+	    ;; for erlang
+	    (setq default-tab-width 2)
+	    (setq tab-width 2)
+	    (setq-default indent-tabs-mode nil)))
 
 
 (provide  'init-erlang)
