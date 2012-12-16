@@ -3,9 +3,10 @@
 (add-to-list 'load-path "/Users/zhuoyikang/.emacs.d/site-lisp")
 (message "enjoy!!!")
 
+(require 'init-linum)
 (require 'init-locales)
 (require 'init-utils)
-;;(require 'init-ido)
+(require 'init-ido)
 (require 'init-key-press)
 (require 'init-winner)
 (require 'init-misc)
@@ -18,8 +19,6 @@
 (require 'init-shell)
 (require 'init-yasnippet)
 (require 'init-git)
-(require 'init-linum)
-
 
 
 ;;(require 'init-white-space)
