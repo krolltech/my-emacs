@@ -20,12 +20,11 @@
 (require 'init-yasnippet)
 (require 'init-git)
 
-
 ;;(require 'init-white-space)
 (require 'init-slime)
 (require 'init-mark-down)
 (require 'init-xterm)
 (require 'init-csv)
 (require 'init-ibuffer)
-
-
+;;should work with windows system
+(require 'init-highlight-tail)
