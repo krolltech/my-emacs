@@ -19,10 +19,11 @@
 (require 'init-yasnippet)
 (require 'init-git)
 (require 'init-linum)
-(require 'init-white-space)
+;;(require 'init-white-space)
 (require 'init-slime)
 (require 'init-mark-down)
 (require 'init-xterm)
 (require 'init-csv)
+(require 'init-ibuffer)
 
 (message "yikang zhuo's emacs launch")
