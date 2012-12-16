@@ -1,11 +1,11 @@
 ;;emacs配置程序.
-
 (add-to-list 'load-path (expand-file-name "~/.emacs.d"))
 (add-to-list 'load-path "/Users/zhuoyikang/.emacs.d/site-lisp")
+(message "enjoy!!!")
 
 (require 'init-locales)
 (require 'init-utils)
-(require 'init-ido)
+;;(require 'init-ido)
 (require 'init-key-press)
 (require 'init-winner)
 (require 'init-misc)
@@ -19,6 +19,9 @@
 (require 'init-yasnippet)
 (require 'init-git)
 (require 'init-linum)
+
+
+
 ;;(require 'init-white-space)
 (require 'init-slime)
 (require 'init-mark-down)
@@ -26,4 +29,4 @@
 (require 'init-csv)
 (require 'init-ibuffer)
 
-(message "yikang zhuo's emacs launch")
+
