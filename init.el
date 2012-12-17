@@ -29,3 +29,5 @@
 ;;should work with windows system
 (require 'init-highlight-tail)
 (require 'init-server)
+(require 'init-custom)
+
