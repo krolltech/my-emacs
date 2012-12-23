@@ -15,6 +15,7 @@
 (setq column-number-mode t)      ;;显示列号 
 (setq default-fill-column 60)    ;;
 (global-set-key [f10] 'undo)     ;;设置F10为撤销
+(put 'erase-buffer 'disabled nil);;执行erase_buffer时不提示 
 (put 'set-goal-column 'disabled nil)
 (put 'narrow-to-region 'disabled nil)
 (put 'upcase-region 'disabled nil)

@@ -12,7 +12,6 @@
 (require 'init-misc)
 (require 'init-session)
 (require 'init-complete)
-(require 'init-erlang)
 (require 'init-ruby)
 (require 'init-lua)
 (require 'init-template)
@@ -22,6 +21,7 @@
 
 ;;(require 'init-white-space)
 (require 'init-slime)
+(require 'init-elisp)
 (require 'init-mark-down)
 (require 'init-xterm)
 (require 'init-csv)
@@ -29,5 +29,7 @@
 ;;should work with windows system
 (require 'init-highlight-tail)
 (require 'init-server)
+(require 'init-erlang)
 (require 'init-custom)
+
 

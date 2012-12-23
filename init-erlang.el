@@ -71,7 +71,10 @@
 	    ;; for erlang
 	    (setq default-tab-width 2)
 	    (setq tab-width 2)
+      ;;(auto-fill-mode)      
+      ;;(setq fill-column 80)
+      ;; now '-' is not considered a word-delimiter
+      (modify-syntax-entry ?_ "w")
 	    (setq-default indent-tabs-mode nil)))
-
 
 (provide  'init-erlang)
