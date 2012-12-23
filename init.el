@@ -10,7 +10,6 @@
 (require 'init-key-press)
 (require 'init-winner)
 (require 'init-misc)
-(require 'init-session)
 (require 'init-complete)
 (require 'init-ruby)
 (require 'init-lua)
@@ -31,5 +30,5 @@
 (require 'init-server)
 (require 'init-erlang)
 (require 'init-custom)
-
+(require 'init-session)
 
