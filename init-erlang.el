@@ -74,6 +74,7 @@
       ;;(auto-fill-mode)      
       ;;(setq fill-column 80)
       ;; now '-' is not considered a word-delimiter
+      (linum-on)
       (modify-syntax-entry ?_ "w")
 	    (setq-default indent-tabs-mode nil)))
 

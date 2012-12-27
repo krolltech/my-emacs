@@ -27,7 +27,6 @@
   (yank)
   (beginning-of-line))
 
-
 (global-set-key (kbd "C-c C-w") 'select-word)
 (global-set-key (kbd "C-c C-l") 'select-line)
 (global-set-key (kbd "C-c C-n") 'copy-line)
