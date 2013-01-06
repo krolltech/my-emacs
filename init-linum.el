@@ -1,4 +1,4 @@
-;加入显示行号插件
+;;加入显示行号插件
 ;;(require 'linum)
 ;;(global-linum-mode 1)
 
