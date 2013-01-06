@@ -4,5 +4,6 @@
       (winner-mode 1))
 (windmove-default-keybindings)
 
+(global-set-key (kbd "<f7> ") 'winner-undo)
 
 (provide 'init-winner)

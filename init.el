@@ -11,6 +11,7 @@
 (require 'init-key-press)
 (require 'init-winner)
 (require 'init-misc)
+(require 'init-dired)
 (require 'init-go)
 (require 'init-complete)
 (require 'init-ruby)
