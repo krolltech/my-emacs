@@ -1,5 +1,5 @@
 ;加入显示行号插件
-(require 'linum)
+;;(require 'linum)
 ;;(global-linum-mode 1)
 
 ;;格式化行号形式
