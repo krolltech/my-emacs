@@ -17,8 +17,8 @@
 (global-set-key (kbd "C-x C-k") 'kill-region)
 (global-set-key (kbd "C-c C-k") 'kill-region)
 
-(global-set-key (kbd "M-[") 'previous-buffer)
-(global-set-key (kbd "M-]") 'next-buffer)
+;; (global-set-key (kbd "M-[") 'previous-buffer)
+;; (global-set-key (kbd "M-]") 'next-buffer)
 
 
 (provide 'init-key-press)
