@@ -1,6 +1,4 @@
-(require 'highlight-tail)
-(highlight-tail-mode)
+;; (require 'highlight-tail)
+;; (highlight-tail-mode)
 (provide 'init-highlight-tail)
-
-
 

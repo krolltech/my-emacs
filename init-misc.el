@@ -22,6 +22,9 @@
 (put 'downcase-region 'disabled nil)  ;; 
 (global-set-key [(f8)] 'eshell)       ;; 
 
+(blink-cursor-mode -1)                ;; 光标禁止闪烁
+;; (setq-default cursor-type 'bar)       ;； 设置光标为竖线 
+(setq-default cursor-type 'box)       ;； 设置光标为方块 
 
 ;;;;高亮当前行
 ;;(require 'hl-line)
@@ -43,7 +46,14 @@
 ;;分割窗口
 ;;(split-window-horizontally)
 
+;; 设置界面颜色
+;; (set-foreground-color "Wheat")
+;; (set-background-color "DarkSlateGray")
+;; (set-cursor-color "Orchid")
+;; (set-mouse-color "Orchid")
 
+;; (tabbar-mode -1)		     ; no tabbar
+;; (one-buffer-one-frame-mode -1)       ; no one-buffer-per-frame
 
 (provide 'init-misc)
 

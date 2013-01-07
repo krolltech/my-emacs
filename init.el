@@ -34,4 +34,5 @@
 (require 'init-erlang)
 (require 'init-custom)
 (require 'init-session)
+(require 'init-colortheme)
 
