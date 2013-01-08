@@ -10,7 +10,6 @@
 (require 'init-ido)
 (require 'init-key-press)
 (require 'init-winner)
-(require 'init-misc)
 (require 'init-dired)
 (require 'init-go)
 (require 'init-complete)
@@ -33,6 +32,6 @@
 (require 'init-server)
 (require 'init-erlang)
 (require 'init-custom)
-(require 'init-session)
+;;(require 'init-session)
 (require 'init-colortheme)
-
+(require 'init-misc)

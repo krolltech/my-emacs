@@ -3,7 +3,7 @@
 ;;(global-linum-mode 1)
 
 ;;格式化行号形式
-(setq linum-format " %d ")
+(setq linum-format "%d  ")
 
 ;;(require 'setnu)
 ;;(setnu-mode t)

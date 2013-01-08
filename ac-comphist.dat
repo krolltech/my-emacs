@@ -1,508 +1,530 @@
-((("color-theme-calm-forest" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
-  ("nth" .
-   [1 0 0])
-  ("TableNameList" .
-   [1 0 0 0 0 0 0 0 0 0 0 2 0])
-  ("is_list" .
-   [1 0 0 0 0 0 0])
-  ("When" .
-   [1 0 0 0])
-  ("TableName" .
-   [2 0 0 0 0 0 4 0 3])
-  ("T" .
-   [3])
-  ("Chapter" .
-   [0 0 0 0 0 0 1])
-  ("CompiledMS" .
-   [0 0 0 0 0 0 0 1 0 0])
-  ("ActId" .
-   [1 0 0 0 0])
-  ("car" .
-   [1 0 0])
-  ("nthcdr" .
-   [0 0 0 0 1 0])
-  ("export_all" .
-   [0 0 0 0 1 0 0 0 0 0])
-  ("compiler" .
-   [0 0 0 0 0 0 0 1])
-  ("mymod" .
-   [1 0 0 0 0])
-  ("module" .
-   [2 0 0 0 0 0])
-  ("linum-on" .
-   [1 0 0 0 0 0 0 0])
-  ("linum-" .
-   [0 0 0 0 1 0])
-  ("PACKET_EQUIPMENT_DETAIL_REQ" .
-   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("EquipLevel" .
-   [0 0 0 1 0 0 0 0 0 0])
-  ("equipment_not_found" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
-  ("Equipment" .
-   [0 0 0 1 0 0 0 0 0])
-  ("EquipType" .
-   [1 0 0 0 0 0 0 0 1])
-  ("xx" .
-   [2 0])
-  ("equipment_recipe" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0])
-  ("equipment_evolution" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0])
-  ("23" .
-   [2 0])
-  ("Equip" .
-   [0 0 0 1 2])
-  ("check_equipmenet_id_exist" .
-   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("get_equipments_and_extra" .
-   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("do" .
-   [1 0])
-  ("get_equip" .
-   [0 0 0 0 0 0 0 0 1])
-  ("ValidExecChain" .
-   [0 0 0 0 0 0 0 0 1 0 0 0 0 0])
-  ("EquipId" .
-   [3 0 0 0 0 0 0])
-  ("all_equipments_record" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
-  ("all_equipments" .
-   [3 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("DbEquip" .
-   [1 0 0 0 0 0 0])
-  ("db_equipment" .
-   [0 0 0 0 0 0 0 0 0 0 0 2])
-  ("EquipOld" .
-   [0 0 0 0 1 0 0 2])
-  ("e" .
-   [3])
-  ("undefined" .
-   [0 0 0 0 0 0 0 0 1])
-  ("check_fleet_already_on_matrx" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("reset" .
+((("player_fleet_krypton" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("k" .
+   [1])
+  ("player_fleet" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("Value" .
    [2 0 0 0 0])
-  ("fleet_cell_id_key" .
-   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
-  ("New" .
-   [2 0 0])
-  ("Old" .
-   [1 0 0])
-  ("valid_chain_exec" .
-   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
-  ("misc" .
-   [2 0 0 0])
-  ("ValidChainList" .
-   [1 0 0 0 0 1 0 0 0 0 0 0 0 0])
-  ("fleet_identity" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("db_matrix_cell" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("db_cdtime" .
-   [0 0 0 0 1 0 0 0 0])
-  ("cell" .
-   [1 0 0 0])
-  ("fleet" .
-   [1 0 0 0 0])
-  ("Cells" .
+  ("suppl" .
    [0 0 0 0 1])
-  ("MATRIX_STATE" .
-   [0 0 0 1 1 0 0 0 0 0 0 0])
-  ("FleetIdentity" .
-   [0 0 0 0 0 0 0 0 2 0 0 0 0])
-  ("DbCell" .
-   [2 0 0 0 0 1])
-  ("DbStatus" .
-   [0 0 0 1 0 0 0 0])
-  ("CellId" .
-   [6 0 1 0 0 0])
-  ("Reason" .
-   [7 0 0 0 0 0])
-  ("spell" .
+  ("other" .
    [1 0 0 0 0])
-  ("SpellId" .
-   [1 0 0 0 0 0 0])
-  ("spell_id" .
-   [2 0 0 0 0 0 0 0])
-  ("accumulator" .
-   [0 0 0 0 1 0 0 0 0 0 0])
-  ("Durability" .
-   [0 0 1 0 0 0 0 0 0 0])
-  ("max_accumulator" .
-   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
-  ("max" .
+  ("undefine" .
+   [1 0 0 0 0 0 0 0])
+  ("Other" .
+   [1 0 0 0 0])
+  ("Resource" .
+   [1 0 0 0 0 0 0 0])
+  ("now" .
    [1 0 0])
-  ("max_durability" .
-   [0 0 0 0 0 0 2 0 0 0 0 0 0 0])
-  ("MaxDurability" .
-   [0 0 0 0 0 1 0 0 0 0 0 0 0])
-  ("durability" .
-   [0 0 0 0 0 0 0 0 0 2])
-  ("Accumulate" .
-   [0 0 0 1 2 0 0 0 0 2])
-  ("100" .
-   [1 0 0])
-  ("NewDbFLeet" .
-   [0 0 0 0 0 1 0 0 0 1])
-  ("FLEET_" .
-   [0 0 0 0 0 1])
-  ("M" .
-   [2])
-  ("db_fleet" .
-   [0 0 0 0 0 0 0 1])
-  ("DbFleet" .
-   [0 0 0 1 1 0 1])
-  ("fleet_not_exist" .
-   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
-  ("error" .
-   [8 0 0 0 0])
-  ("undefind" .
-   [0 0 0 0 0 0 0 3])
-  ("of" .
-   [7 0])
-  ("FLEET_STATE" .
-   [0 0 0 0 0 0 0 0 0 0 2])
-  ("case" .
-   [8 0 0 0])
-  ("Max" .
-   [1 0 0])
-  ("fleet_info" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("FleetGrow" .
-   [0 0 0 0 0 0 0 1 1])
-  ("Identity" .
-   [0 0 0 0 12 0 0 4])
-  ("FleetInfo" .
-   [1 0 0 0 0 0 0 0 1])
-  ("s" .
-   [1])
-  ("TechniqueList" .
-   [0 0 0 0 0 1 0 0 0 0 0 0 0])
-  ("string=" .
-   [1 0 0 0 0 0 0])
-  ("char" .
-   [2 0 0 0])
-  ("good" .
-   [2 0 0 0])
-  ("if" .
-   [2 0])
-  ("/=" .
-   [1 0])
-  ("thing-at-point" .
-   [0 0 0 0 0 1 0 0 0 0 0 0 0 0])
-  ("forward-word" .
-   [0 0 0 1 0 0 0 0 0 0 2 0])
-  ("while" .
+  ("INFO" .
+   [1 0 0 0])
+  ("Table" .
    [2 0 0 0 0])
-  ("string" .
-   [2 0 0 1 0 0])
-  ("message" .
-   [7 0 0 0 0 0 0])
-  ("is" .
-   [2 0])
-  ("setq" .
+  ("Vals" .
+   [0 0 0 1])
+  ("find" .
    [1 0 0 0])
-  ("forward-char" .
-   [0 0 0 0 1 0 0 0 0 0 0 0])
-  ("step" .
-   [4 0 0 0])
-  ("when" .
-   [3 0 0 0])
-  ("lists" .
-   [2 0 0 0 0])
-  ("format" .
-   [9 0 0 0 0 0])
-  ("io" .
-   [9 0])
-  ("RevenuePath" .
-   [0 0 0 1 0 0 0 0 0 0 0])
-  ("return" .
-   [1 0 0 0 0 0])
-  ("setImaginary" .
-   [1 0 0 0 0 1 0 0 0 0 0 0])
-  ("setReal" .
-   [0 0 0 0 1 0 0])
-  ("result" .
-   [1 0 0 0 1 0])
-  ("init" .
-   [1 0 0 0])
-  ("alloc" .
-   [1 0 0 0 0])
-  ("Complex" .
-   [0 0 0 1 1 0 0])
-  ("NSLog" .
-   [1 0 0 0 0])
-  ("print" .
-   [1 0 0 0 0])
-  ("void" .
-   [1 0 0 0])
-  ("imaginary" .
-   [0 0 1 3 1 0 0 0 0])
-  ("real" .
-   [5 0 0 0])
-  ("@synthesize" .
-   [0 0 0 0 1 0 0 0 0 0 0])
-  ("complex" .
-   [0 0 0 0 0 0 1])
-  ("@implementation" .
-   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
-  ("@end" .
-   [2 0 0 0])
-  ("init-server" .
-   [0 0 0 0 0 0 0 0 1 0 0])
-  ("few" .
-   [0 0 1])
-  ("provide" .
-   [0 0 0 0 0 0 3])
-  ("require" .
-   [0 0 0 1 4 0 0])
-  ("highlight-tail" .
-   [0 0 0 1 0 0 0 0 0 0 0 0 0 0])
-  ("test" .
-   [2 0 0 0])
-  ("record" .
-   [1 0 0 0 0 0])
-  ("db_krypton" .
-   [0 0 0 0 0 0 5 0 0 1])
-  ("id" .
-   [5 0])
-  ("type" .
-   [7 0 0 0])
-  ("level" .
-   [7 0 0 0 0])
-  ("rank" .
-   [5 0 0 0])
-  ("status" .
-   [5 0 0 0 0 1])
-  ("Type" .
-   [2 0 0 0])
-  ("Level" .
-   [3 0 0 0 0])
-  ("Rank" .
-   [1 0 0 1])
-  ("Status" .
-   [2 0 0 0 0 0])
-  ("MODEL_KRYPTONS" .
-   [1 0 0 0 0 0 0 0 2 1 0 0 0 0])
-  ("InsertList" .
-   [0 0 0 0 0 1 0 0 0 0])
-  ("table_revenue" .
-   [0 0 0 0 0 0 0 0 2 1 0 0 0])
-  ("ok" .
-   [18 0])
-  ("list" .
-   [1 0 0 0])
-  ("foreach" .
-   [1 0 0 0 0 0 0])
-  ("fun" .
-   [8 0 0])
-  ("Item" .
-   [4 0 0 0])
-  ("table_revenue_info" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("end" .
-   [9 0 0])
-  ("List" .
-   [2 0 0 0])
-  ("init-custom" .
-   [0 0 0 0 0 0 0 0 0 1 0])
-  ("select-word" .
-   [0 0 0 0 0 0 0 1 0 0 0])
-  ("select-line" .
-   [0 0 0 0 0 0 0 0 0 1 0])
-  ("region-end" .
-   [0 0 0 1 1 0 0 1 0 0])
-  ("copy-region-as-kill" .
-   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
-  ("copy" .
-   [2 0 0 0])
-  ("kill-region" .
-   [0 0 0 0 0 0 0 0 1 0 0])
-  ("kill-ring-save" .
-   [0 0 0 0 0 0 0 1 0 0 0 0 0 1])
-  ("pop-mark" .
-   [0 0 0 0 1 1 0 0])
-  ("push-mark" .
-   [0 0 0 0 0 0 0 1 0])
-  ("point" .
-   [1 0 0 0 1])
-  ("region-beginning" .
-   [1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
-  ("end-of-line" .
-   [0 0 0 1 1 0 0 0 0 0 0])
-  ("yank-pop" .
-   [0 0 0 1 0 0 0 0])
-  ("copy-line" .
-   [0 0 0 1 0 0 0 0 0])
-  ("next-line" .
-   [0 0 0 0 1 0 0 0 0])
-  ("beginning-of-line" .
-   [0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("insert-buffer-substring-as-yank" .
-   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("insert-buffer-substring" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("append-to-buffer" .
-   [0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0])
-  ("defun" .
-   [4 0 0 0 0])
-  ("append" .
-   [0 0 0 1 0 0])
-  ("interactive" .
-   [0 0 0 0 0 1 1 0 0 0 2])
-  ("let" .
+  ("Key" .
    [2 0 0])
-  ("KryptonArray" .
-   [0 0 0 0 0 0 0 0 1 0 0 0])
-  ("state" .
-   [8 0 0 0 0])
-  ("player_krypton" .
-   [0 0 0 0 0 0 0 0 0 0 2 0 0 0])
-  ("Kryptons" .
-   [0 0 0 0 0 0 0 2])
-  ("KRYPTON_EQUIP" .
-   [0 0 0 2 0 0 0 0 0 0 0 0 0])
-  ("get" .
-   [4 0 0])
-  ("get_krypton_slot" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("attr_id" .
-   [1 0 0 0 0 0 0])
-  ("sort" .
-   [6 0 0 0])
-  ("KryptonId" .
-   [3 0 0 0 0 0 0 1 0])
-  ("attr" .
-   [2 0 0 0])
-  ("AttrList" .
-   [2 0 0 0 0 0 0 0])
-  ("DbKrypton" .
-   [0 0 0 1 0 1 0 0 0])
-  ("search" .
-   [4 0 0 0 0 0])
-  ("FLEET_KRYPTON_STATE" .
-   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
-  ("KRYPTON_STATE" .
-   [0 0 0 1 0 0 0 0 0 0 0 0 1])
-  ("update" .
-   [3 0 0 0 0 0])
-  ("Krytpon" .
-   [0 0 0 0 0 0 1])
-  ("NewDbKrypton" .
-   [0 0 0 0 0 0 1 0 0 0 0 0])
-  ("get_attr" .
-   [3 0 0 0 0 1 0 0])
-  ("set_attr" .
-   [2 0 0 0 0 2 0 0])
-  ("Slot" .
-   [3 0 0 0])
-  ("State" .
-   [1 0 0 0 0])
-  ("slot" .
-   [1 0 0 0])
-  ("Krypton" .
-   [0 0 0 5 0 0 1])
-  ("Position" .
+  ("TableKey" .
+   [0 0 0 0 0 0 1 0])
+  ("battle_not_exist" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("monsters" .
    [0 0 0 0 1 0 0 0])
-  ("Id1" .
-   [1 0 0])
-  ("Pos2" .
-   [1 0 0 0])
-  ("Id2" .
-   [1 0 0])
-  ("Pos1" .
-   [1 0 0 0])
-  ("KryptonId1" .
-   [0 0 0 0 0 0 0 0 1 0])
-  ("KryptonId2" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("set" .
-   [1 0 0])
-  ("krypton" .
-   [1 0 0 0 0 0 0])
-  ("krypton_store_does_sort_clear" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("krypton_store_does_sort_free" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("define" .
-   [2 0 0 0 0 0])
-  ("krypton_tmp" .
-   [2 0 0 0 0 0 0 0 0 0 0])
-  ("Id" .
-   [3 0])
-  ("Sort" .
-   [2 0 0 0])
-  ("KRYPTON_STORE_MAX" .
-   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("true" .
-   [1 0 0 0])
-  ("Param" .
-   [3 0 0 0 0])
-  ("false" .
-   [2 0 0 0 0])
-  ("init-elisp" .
-   [0 0 0 0 0 0 0 1 0 0])
-  ("emacs-lisp-mode-hook" .
-   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("split-window-vertically" .
-   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("Auto" .
-   [5 0 0 0])
-  ("Reloot" .
-   [0 0 0 0 0 1])
-  ("in_range" .
-   [1 0 0 0 0 0 0 0])
-  ("do_nothing" .
-   [0 0 0 0 1 0 0 0 0 0])
-  ("i" .
-   [1])
-  ("init-org" .
-   [0 0 0 0 0 1 0 0])
-  ("~/Project/galaxy-empire-2/todolist.org" .
-   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("~/todo/" .
-   [0 0 0 0 1 0 0])
-  ("~/todo/mytask.org" .
-   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
-  ("go-mode" .
-   [0 0 1 0 0 0 0])
-  ("Monsters" .
-   [1 0 0 0 0 0 0 0])
-  ("P" .
-   [1])
-  ("parse_pre_battles" .
-   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("qa" .
-   [1 0])
-  ("parse" .
-   [2 0 0 0 0])
-  ("chapter_battles" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("include" .
+  ("gd_battles" .
+   [0 0 0 0 0 1 0 0 0 1])
+  ("battle" .
+   [1 0 0 0 0 0])
+  ("Options" .
    [2 0 0 0 0 0 0])
   ("csv_inject" .
    [0 0 0 0 0 1 0 0 0 0])
-  ("Options" .
+  ("include" .
    [2 0 0 0 0 0 0])
-  ("battle" .
-   [1 0 0 0 0 0])
-  ("gd_battles" .
-   [0 0 0 0 0 1 0 0 0 1])
-  ("monsters" .
-   [0 0 0 0 1 0 0 0])
-  ("battle_not_exist" .
-   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
-  ("TableKey" .
-   [0 0 0 0 0 0 1 0])
-  ("Key" .
-   [2 0 0])
-  ("find" .
-   [1 0 0 0])
-  ("Vals" .
-   [0 0 0 1])
-  ("Table" .
+  ("chapter_battles" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("parse" .
    [2 0 0 0 0])
-  ("INFO" .
-   [1 0 0 0])))
+  ("qa" .
+   [1 0])
+  ("parse_pre_battles" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("P" .
+   [1])
+  ("Monsters" .
+   [1 0 0 0 0 0 0 0])
+  ("go-mode" .
+   [0 0 1 0 0 0 0])
+  ("~/todo/mytask.org" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("~/todo/" .
+   [0 0 0 0 1 0 0])
+  ("~/Project/galaxy-empire-2/todolist.org" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("init-org" .
+   [0 0 0 0 0 1 0 0])
+  ("i" .
+   [1])
+  ("do_nothing" .
+   [0 0 0 0 1 0 0 0 0 0])
+  ("in_range" .
+   [1 0 0 0 0 0 0 0])
+  ("Reloot" .
+   [0 0 0 0 0 1])
+  ("Auto" .
+   [5 0 0 0])
+  ("split-window-vertically" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("emacs-lisp-mode-hook" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("init-elisp" .
+   [0 0 0 0 0 0 0 1 0 0])
+  ("false" .
+   [2 0 0 0 0])
+  ("Param" .
+   [3 0 0 0 0])
+  ("true" .
+   [1 0 0 0])
+  ("KRYPTON_STORE_MAX" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("Sort" .
+   [2 0 0 0])
+  ("Id" .
+   [3 0])
+  ("krypton_tmp" .
+   [2 0 0 0 0 0 0 0 0 0 0])
+  ("define" .
+   [2 0 0 0 0 0])
+  ("krypton_store_does_sort_free" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("krypton_store_does_sort_clear" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("krypton" .
+   [1 0 0 0 0 0 0])
+  ("set" .
+   [1 0 0])
+  ("KryptonId2" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("KryptonId1" .
+   [0 0 0 0 0 0 0 0 1 0])
+  ("Pos1" .
+   [1 0 0 0])
+  ("Id2" .
+   [1 0 0])
+  ("Pos2" .
+   [1 0 0 0])
+  ("Id1" .
+   [1 0 0])
+  ("Position" .
+   [0 0 0 0 1 0 0 0])
+  ("Krypton" .
+   [0 0 0 5 0 0 1])
+  ("slot" .
+   [1 0 0 0])
+  ("State" .
+   [1 0 0 0 0])
+  ("Slot" .
+   [3 0 0 0])
+  ("set_attr" .
+   [2 0 0 0 0 2 0 0])
+  ("get_attr" .
+   [3 0 0 0 0 1 0 0])
+  ("NewDbKrypton" .
+   [0 0 0 0 0 0 1 0 0 0 0 0])
+  ("Krytpon" .
+   [0 0 0 0 0 0 1])
+  ("update" .
+   [4 0 0 0 0 0])
+  ("KRYPTON_STATE" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 1])
+  ("FLEET_KRYPTON_STATE" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("search" .
+   [4 0 0 0 0 0])
+  ("DbKrypton" .
+   [0 0 0 1 0 1 0 0 0])
+  ("AttrList" .
+   [2 0 0 0 0 0 0 0])
+  ("attr" .
+   [2 0 0 0])
+  ("KryptonId" .
+   [3 0 0 0 0 0 0 1 0])
+  ("sort" .
+   [6 0 0 0])
+  ("attr_id" .
+   [1 0 0 0 0 0 1])
+  ("get_krypton_slot" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("get" .
+   [4 0 0])
+  ("KRYPTON_EQUIP" .
+   [0 0 0 2 0 0 0 0 0 0 0 0 0])
+  ("Kryptons" .
+   [0 0 0 0 0 0 0 2])
+  ("player_krypton" .
+   [0 0 0 0 0 0 0 0 0 0 2 0 0 0])
+  ("state" .
+   [8 0 0 0 0])
+  ("KryptonArray" .
+   [0 0 0 0 0 0 0 0 1 0 0 0])
+  ("let" .
+   [2 0 0])
+  ("interactive" .
+   [0 0 0 0 0 1 1 0 0 0 2])
+  ("append" .
+   [0 0 0 1 0 0])
+  ("defun" .
+   [4 0 0 0 0])
+  ("append-to-buffer" .
+   [0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0])
+  ("insert-buffer-substring" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("insert-buffer-substring-as-yank" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("beginning-of-line" .
+   [0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("next-line" .
+   [0 0 0 0 1 0 0 0 0])
+  ("copy-line" .
+   [0 0 0 1 0 0 0 0 0])
+  ("yank-pop" .
+   [0 0 0 1 0 0 0 0])
+  ("end-of-line" .
+   [0 0 0 1 1 0 0 0 0 0 0])
+  ("region-beginning" .
+   [1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("point" .
+   [1 0 0 0 1])
+  ("push-mark" .
+   [0 0 0 0 0 0 0 1 0])
+  ("pop-mark" .
+   [0 0 0 0 1 1 0 0])
+  ("kill-ring-save" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 1])
+  ("kill-region" .
+   [0 0 0 0 0 0 0 0 1 0 0])
+  ("copy" .
+   [2 0 0 0])
+  ("copy-region-as-kill" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("region-end" .
+   [0 0 0 1 1 0 0 1 0 0])
+  ("select-line" .
+   [0 0 0 0 0 0 0 0 0 1 0])
+  ("select-word" .
+   [0 0 0 0 0 0 0 1 0 0 0])
+  ("init-custom" .
+   [0 0 0 0 0 0 0 0 0 1 0])
+  ("List" .
+   [2 0 0 0])
+  ("end" .
+   [10 0 0])
+  ("table_revenue_info" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("Item" .
+   [4 0 0 0])
+  ("fun" .
+   [9 0 0])
+  ("foreach" .
+   [1 0 0 0 0 0 0])
+  ("list" .
+   [1 0 0 0])
+  ("ok" .
+   [19 0])
+  ("table_revenue" .
+   [0 0 0 0 0 0 0 0 2 1 0 0 0])
+  ("InsertList" .
+   [0 0 0 0 0 1 0 0 0 0])
+  ("MODEL_KRYPTONS" .
+   [1 0 0 0 0 0 0 0 2 1 0 0 0 0])
+  ("Status" .
+   [2 0 0 0 0 0])
+  ("Rank" .
+   [1 0 0 1])
+  ("Level" .
+   [3 0 0 0 0])
+  ("Type" .
+   [3 0 0 0])
+  ("status" .
+   [5 0 0 0 0 1])
+  ("rank" .
+   [5 0 0 0])
+  ("level" .
+   [7 0 0 0 0])
+  ("type" .
+   [7 0 0 0])
+  ("id" .
+   [5 0])
+  ("db_krypton" .
+   [0 0 0 0 0 0 5 0 0 1])
+  ("record" .
+   [1 0 0 0 0 0])
+  ("test" .
+   [2 0 0 0])
+  ("highlight-tail" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("require" .
+   [0 0 0 1 4 0 0])
+  ("provide" .
+   [0 0 0 0 0 0 3])
+  ("few" .
+   [0 0 1])
+  ("init-server" .
+   [0 0 0 0 0 0 0 0 1 0 0])
+  ("@end" .
+   [2 0 0 0])
+  ("@implementation" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("complex" .
+   [0 0 0 0 0 0 1])
+  ("@synthesize" .
+   [0 0 0 0 1 0 0 0 0 0 0])
+  ("real" .
+   [5 0 0 0])
+  ("imaginary" .
+   [0 0 1 3 1 0 0 0 0])
+  ("void" .
+   [1 0 0 0])
+  ("print" .
+   [1 0 0 0 0])
+  ("NSLog" .
+   [1 0 0 0 0])
+  ("Complex" .
+   [0 0 0 1 1 0 0])
+  ("alloc" .
+   [1 0 0 0 0])
+  ("init" .
+   [1 0 0 0])
+  ("result" .
+   [1 0 0 0 1 0])
+  ("setReal" .
+   [0 0 0 0 1 0 0])
+  ("setImaginary" .
+   [1 0 0 0 0 1 0 0 0 0 0 0])
+  ("return" .
+   [1 0 0 0 0 0])
+  ("RevenuePath" .
+   [0 0 0 1 0 0 0 0 0 0 0])
+  ("io" .
+   [10 0])
+  ("format" .
+   [10 0 0 0 0 0])
+  ("lists" .
+   [2 0 0 0 0])
+  ("when" .
+   [3 0 0 0])
+  ("step" .
+   [4 0 0 0])
+  ("forward-char" .
+   [0 0 0 0 1 0 0 0 0 0 0 0])
+  ("setq" .
+   [1 0 0 0])
+  ("is" .
+   [2 0])
+  ("message" .
+   [7 0 0 0 0 0 0])
+  ("string" .
+   [2 0 0 1 0 0])
+  ("while" .
+   [2 0 0 0 0])
+  ("forward-word" .
+   [0 0 0 1 0 0 0 0 0 0 2 0])
+  ("thing-at-point" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("/=" .
+   [1 0])
+  ("if" .
+   [2 0])
+  ("good" .
+   [2 0 0 0])
+  ("char" .
+   [2 0 0 0])
+  ("string=" .
+   [1 0 0 0 0 0 0])
+  ("TechniqueList" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("s" .
+   [1])
+  ("FleetInfo" .
+   [1 0 0 0 0 0 0 0 1])
+  ("Identity" .
+   [0 0 0 0 12 0 0 4])
+  ("FleetGrow" .
+   [0 0 0 0 0 0 0 1 1])
+  ("fleet_info" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("Max" .
+   [1 0 0])
+  ("case" .
+   [8 0 0 0])
+  ("FLEET_STATE" .
+   [0 0 0 0 0 0 0 0 0 0 2])
+  ("of" .
+   [7 0])
+  ("undefind" .
+   [0 0 0 0 0 0 1 3])
+  ("error" .
+   [8 0 0 0 0])
+  ("fleet_not_exist" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("DbFleet" .
+   [0 0 0 1 1 0 1])
+  ("db_fleet" .
+   [0 0 0 0 0 0 0 1])
+  ("M" .
+   [2])
+  ("FLEET_" .
+   [0 0 0 0 0 1])
+  ("NewDbFLeet" .
+   [0 0 0 0 0 1 0 0 0 1])
+  ("100" .
+   [1 0 0])
+  ("Accumulate" .
+   [0 0 0 1 2 0 0 0 0 2])
+  ("durability" .
+   [0 0 0 0 0 0 0 0 0 2])
+  ("MaxDurability" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("max_durability" .
+   [0 0 0 0 0 0 2 0 0 0 0 0 0 0])
+  ("max" .
+   [1 0 0])
+  ("max_accumulator" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("Durability" .
+   [0 0 1 0 0 0 0 0 0 0])
+  ("accumulator" .
+   [0 0 0 0 1 0 0 0 0 0 0])
+  ("spell_id" .
+   [2 0 0 0 0 0 0 0])
+  ("SpellId" .
+   [1 0 0 0 0 0 0])
+  ("spell" .
+   [1 0 0 0 0])
+  ("Reason" .
+   [7 0 0 0 0 0])
+  ("CellId" .
+   [6 0 1 0 0 0])
+  ("DbStatus" .
+   [0 0 0 1 0 0 0 0])
+  ("DbCell" .
+   [2 0 0 0 0 1])
+  ("FleetIdentity" .
+   [0 0 0 0 0 0 0 1 2 0 0 0 0])
+  ("MATRIX_STATE" .
+   [0 0 0 1 1 0 0 0 0 0 0 0])
+  ("Cells" .
+   [0 0 0 0 1])
+  ("fleet" .
+   [1 0 0 0 0])
+  ("cell" .
+   [1 0 0 0])
+  ("db_cdtime" .
+   [0 0 0 0 1 0 0 0 0])
+  ("db_matrix_cell" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("fleet_identity" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("ValidChainList" .
+   [1 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("misc" .
+   [2 0 0 0])
+  ("valid_chain_exec" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("Old" .
+   [1 0 0])
+  ("New" .
+   [2 0 0])
+  ("fleet_cell_id_key" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("reset" .
+   [2 0 0 0 0])
+  ("check_fleet_already_on_matrx" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("undefined" .
+   [1 0 0 0 0 0 1 0 1])
+  ("e" .
+   [3])
+  ("EquipOld" .
+   [0 0 0 0 1 0 0 2])
+  ("db_equipment" .
+   [0 0 0 0 0 0 0 0 0 0 0 2])
+  ("DbEquip" .
+   [1 0 0 0 0 0 0])
+  ("all_equipments" .
+   [3 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("all_equipments_record" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("EquipId" .
+   [3 0 0 0 0 0 0])
+  ("ValidExecChain" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("get_equip" .
+   [0 0 0 0 0 0 0 0 1])
+  ("do" .
+   [1 0])
+  ("get_equipments_and_extra" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("check_equipmenet_id_exist" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("Equip" .
+   [0 0 0 1 2])
+  ("23" .
+   [2 0])
+  ("equipment_evolution" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0])
+  ("equipment_recipe" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("xx" .
+   [2 0])
+  ("EquipType" .
+   [1 0 0 0 0 0 0 0 1])
+  ("Equipment" .
+   [0 0 0 1 0 0 0 0 0])
+  ("equipment_not_found" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("EquipLevel" .
+   [0 0 0 1 0 0 0 0 0 0])
+  ("PACKET_EQUIPMENT_DETAIL_REQ" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("linum-" .
+   [0 0 0 0 1 0])
+  ("linum-on" .
+   [1 0 0 0 0 0 0 0])
+  ("module" .
+   [2 0 0 0 0 0])
+  ("mymod" .
+   [1 0 0 0 0])
+  ("compiler" .
+   [0 0 0 0 0 0 0 1])
+  ("export_all" .
+   [0 0 0 0 1 0 0 0 0 0])
+  ("nthcdr" .
+   [0 0 0 0 1 0])
+  ("car" .
+   [1 0 0])
+  ("ActId" .
+   [1 0 0 0 0])
+  ("CompiledMS" .
+   [0 0 0 0 0 0 0 1 0 0])
+  ("Chapter" .
+   [0 0 0 0 0 0 1])
+  ("T" .
+   [3])
+  ("TableName" .
+   [2 0 0 0 0 0 4 0 3])
+  ("When" .
+   [1 0 0 0])
+  ("is_list" .
+   [1 0 0 0 0 0 0])
+  ("TableNameList" .
+   [1 0 0 0 0 0 0 0 0 0 0 2 0])
+  ("nth" .
+   [1 0 0])
+  ("color-theme-calm-forest" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("1000" .
+   [2 0 0 0])))

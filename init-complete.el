@@ -10,5 +10,3 @@
 
 
 (provide 'init-complete)
-
-

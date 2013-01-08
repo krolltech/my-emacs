@@ -20,7 +20,7 @@
 ;; (global-set-key (kbd "M-[") 'tabbar-backward-tab)
 ;; (global-set-key (kbd "M-]") 'tabbar-forward-tab)
 
-(global-set-key (kbd "M-[") 'previous-buffer)
+(global-set-key (kbd "M-p") 'previous-buffer)
 (global-set-key (kbd "M-]") 'next-buffer)
 
 ;; (global-set-key (kbd "<f9>") 'next-match)
